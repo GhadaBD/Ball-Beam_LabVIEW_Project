@@ -23,3 +23,6 @@ Custom 3D printed parts made with SolidWorks. Base support  +  Beam (40cm) + Ser
 ## Electrical Part
 
 You will need: Arduino(Uno), Servo_motor, Ultrasonic sensor, jumper wires and Battery
+
+## Software programming description:
+! [/home/ghada/Desktop/flowchart.png]
