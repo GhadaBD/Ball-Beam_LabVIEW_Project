@@ -25,4 +25,4 @@ Custom 3D printed parts made with SolidWorks. Base support  +  Beam (40cm) + Ser
 You will need: Arduino(Uno), Servo_motor, Ultrasonic sensor, jumper wires and Battery
 
 ## Software programming description:
-! [/home/ghada/Desktop/flowchart.png]
+At the beginning, the system receives the ball position from ultrasonic distance sensor and compares it with the desired distance which can be set by the user “the set point”. If they are equal than the system maintains the ball in the desired position. Otherwise the system have to acquire data from the sensor, filtering it than computing the error and apply the PID control signal to the DC servomotor which rotate to change the ball position and so on until we obtain the equilibrium position of the ball. You can see haw we translate all this description on a VI simulation (BallAndBeam.vi)
