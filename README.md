@@ -5,9 +5,9 @@ The ball and beam balance system is one of the most popular laboratory controls 
 
 ## Objectif:
 This project covers:
--Creation of avalid model of the system.
--Identification of numerical values for the model parameters. 
--Assembling the system hardware, and implementing the control system using a microcontroller to interface with the motor. 
+- Creation of avalid model of the system.
+- Identification of numerical values for the model parameters. 
+- Assembling the system hardware, and implementing the control system using a microcontroller to interface with the motor. 
 
 A PID controller is used to control the position of the ball on the beam.
 
